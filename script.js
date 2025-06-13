@@ -7,7 +7,7 @@ function appendToDisplay(value) {
   ) {
     display.value = value;
   } else {
-    display.value += value;
+    display.value -= value;
   }
 }
 
